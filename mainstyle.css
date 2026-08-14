@@ -140,6 +140,7 @@ body {
     padding: 5px;
     margin-top: 5px;
 }
+/* gallery*/
 #gallery{
     text-align: center;
     padding: 60px;
@@ -188,6 +189,7 @@ body {
 .gallerrybox h4, .gallerrybox p {
     color:green;
 }
+/* flag */
 
 #flag{
     text-align: center;
@@ -297,66 +299,59 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.footer-content {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 40px 60px;
-    gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
-.footer-section {
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 40px 50px;
+    gap: 40px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.footer-section{
     display: flex;
     flex-direction: column;
-}
 
+}
 .footer-section h4 {
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    color: #ff9933;
+    color: orange;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-weight: 600;
 }
-
-.footer-section ul {
-    list-style: none;
+.footer-section ul{
     display: flex;
     flex-direction: column;
+    list-style: none;
+    color: whitesmoke;
     gap: 12px;
-}
-
-.footer-section ul li {
-    margin: 0;
-}
-
-.footer-section ul li a {
-    color: #ccc;
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 1.6;
+    padding: 5px;
     transition: 0.3s ease;
+   
 }
+.footer-section ul li a{
+         
+       text-decoration: none;
+        color: whitesmoke;
 
-.footer-section ul li a:hover {
-    color: #ff9933;
-    padding-left: 5px;
 }
-
-.footer-section ul li p {
-    color: #ccc;
-    font-size: 14px;
+.footer-section ul li{
     margin: 0;
-}
+    
 
-.footer-bottom {
+}
+.footer-bottom{
     background-color: #1a1a1a;
     text-align: center;
-    padding: 20px;
-    border-top: 1px solid #444;
+    color: aliceblue;
     font-size: 13px;
-    color: #888;
+    border-top:2px solid #444;
+    padding: 20px;
+}
+.footer-section ul li :hover{
+   color: #ff9933;
+   padding-left: 5px;
 }
 
 .footer-bottom p {
